@@ -50,7 +50,7 @@ Then make the token available to the Github Action following the steps:
 ## Example usage
 ```yaml
       - name: Push generated webpage to another repository
-        uses: nkoppel/push-files-to-another-repository@1.1.0
+        uses: nkoppel/push-files-to-another-repository@v1.1.0
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
